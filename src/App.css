@@ -1,0 +1,45 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.custom-gradient {
+    background: linear-gradient(to top, rgba(105, 68, 68, 0.8), rgba(0, 0, 255, 0.3));
+    border-radius: 30px;
+  }
+
+
+  .cate-menu.active {
+    background: linear-gradient(to right, #f27121, #e94057);
+  }
+  
+  .cate-menu.active svg {
+    color: white;
+  }
+  
+  .cate-menu.active h4 {
+    color: white;
+  }
+  
+
+  .formstyle {
+    border:none;
+    background: linear-gradient(35deg, #494949, #313131);
+    font-size: 1.5rem;
+    color:white;
+    padding:1rem 3rem;
+    outline:none;
+    border-radius:50px;
+  }
+
+  .svg-search{
+    position:absolute;
+    top:50%;
+  left:34.99%;
+    transform:translate(100%, -50%);
+    color:white;
+  }
