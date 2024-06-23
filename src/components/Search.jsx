@@ -21,7 +21,7 @@ function Search(){
         <input
          onChange={(e) => setInput(e.target.value)} type="text" value={input} className='  formstyle w-[30%] text-[20px]'/>
         </div>
-            <h1>{input}</h1>
+          
        </form>
     );
 }

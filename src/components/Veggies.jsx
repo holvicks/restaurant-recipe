@@ -44,8 +44,8 @@ const getVeggie = async()=> {
         veggie.map((recipe)=>{
             return(
                    <SplideSlide >
-                                <div className="relative card h-[200px] w-[300px]" key={recipe.id}>
-                    <p className="text-white z-20 text-center font-semibold flex transform -translate-x-1/2 absolute top-20 left-1/2">
+                                <div className="relative card h-[200px] flex w-[300px] items-center justify-center" key={recipe.id}>
+                    <p className="text-white z-20 text-center font-semibold flex transform -translate-x-1/2 absolute left-1/2 justify-center items-center">
                         {recipe.title}
                     </p>
                     <img className="object-cover w-full h-full absolute rounded-[30px] z-0" src={recipe.image} alt={recipe.title} />
